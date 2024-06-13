@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  &:hover {
+    color: teal;
+  }
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.myBtn {
+  background-color: azure;
+  border: 2px solid turquoise;
+  padding: 10px;
+  cursor: pointer;
+  width: 100px;
+}
